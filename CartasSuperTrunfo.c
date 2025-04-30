@@ -98,5 +98,49 @@ int main() {
     printf ("O PIB per capita da cidade é: %.2f (%d)\n", pib_capita2, resultadoPibCapita2);
     printf ("O Super Poder da carta é: %.2f (%d)\n\n", superPoder2, resultadoSuper2);
 
+    //Realiza a comparação e imprime o resultado
+
+    if (pop1 > pop2) {
+        printf ("%s venceu!\n", nome_cidade1);
+    } else {
+        printf("%s venceu!\n", nome_cidade2);
+    }
+
+    if (area1 > area2) {
+        printf ("%s venceu!\n", nome_cidade1);
+    } else {
+        printf("%s venceu!\n", nome_cidade2);
+    }
+
+    if (pib1 > pib2) {
+        printf ("%s venceu!\n", nome_cidade1);
+    } else {
+        printf("%s venceu!\n", nome_cidade2);
+    }
+
+    if (ponto1 > ponto2) {
+        printf ("%s venceu!\n", nome_cidade1);
+    } else {
+        printf("%s venceu!\n", nome_cidade2);
+    }
+
+    if (densidade1 > densidade2) {
+        printf ("%s venceu!\n", nome_cidade2);
+    } else {
+        printf("%s venceu!\n", nome_cidade1);
+    }
+
+    if (pib_capita1 > pib_capita2) {
+        printf ("%s venceu!\n", nome_cidade1);
+    } else {
+        printf("%s venceu!\n", nome_cidade2);
+    }
+
+    if (superPoder1 > superPoder2) {
+        printf ("%s venceu!\n", nome_cidade1);
+    } else {
+        printf("%s venceu!\n", nome_cidade2);
+    }
+    
     return 0;
 }
